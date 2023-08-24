@@ -16,7 +16,6 @@ namespace LiaisionGroupTestProject.Hooks
     [Binding]
     public class Hooks
     {
-        // For additional details on SpecFlow hooks see http://go.specflow.org/doc-hooks
         private readonly IObjectContainer container;
         
         public Hooks(IObjectContainer container)
@@ -37,8 +36,10 @@ namespace LiaisionGroupTestProject.Hooks
         public void AfterScenario()
         {
             var driver = container.Resolve<IWebDriver>();
-            driver.Quit();
-            //TODO: implement logic that has to run after executing each scenario
+            if(driver!=null)
+            {
+                driver.Quit();
+            }  
         }
     }
 }

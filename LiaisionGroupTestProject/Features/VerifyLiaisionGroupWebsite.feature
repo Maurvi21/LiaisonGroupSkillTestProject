@@ -20,4 +20,11 @@ Scenario: Verify User can navigate to career page via click on Hamburger menu
 Given : Launch Lisison Group Website
 When : Click on Hamburger menu
 And : Click on Careers link 
-Then : verify user should be able to see carrers page with text "Work For Us"
+Then : verify user should be able to see carrers page with URL contains "/careers"
+
+Scenario: Verify Contact Us Section form
+Given : Launch Lisison Group Website
+When : Navigate to Contact Us Section
+And : Enter Contact Us From Details like Full Name, Email, Organization, Subject and Message
+And : Click on Submit arrow
+Then : User should get success message
