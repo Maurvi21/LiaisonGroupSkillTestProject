@@ -133,13 +133,13 @@ testRunner.Then(": Verify user should be able to see dropdown options", ((string
         }
         
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestMethodAttribute()]
-        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Verify user should be able to click on Find More")]
+        [Microsoft.VisualStudio.TestTools.UnitTesting.DescriptionAttribute("Verify user should be able to click on Liaison Financial Logo")]
         [Microsoft.VisualStudio.TestTools.UnitTesting.TestPropertyAttribute("FeatureTitle", "Verify Liaison Group Website")]
-        public virtual void VerifyUserShouldBeAbleToClickOnFindMore()
+        public virtual void VerifyUserShouldBeAbleToClickOnLiaisonFinancialLogo()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify user should be able to click on Find More", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Verify user should be able to click on Liaison Financial Logo", null, tagsOfScenario, argumentsOfScenario, this._featureTags);
 #line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
@@ -164,7 +164,7 @@ this.ScenarioInitialize(scenarioInfo);
 testRunner.Given(": Launch Lisison Group Website", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
 #line hidden
 #line 10
-testRunner.When(": Click on Find More button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+testRunner.When(": Click on Liaison Financial Logo", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 11
 testRunner.Then(": Verify User should be able to redirect to another page", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
