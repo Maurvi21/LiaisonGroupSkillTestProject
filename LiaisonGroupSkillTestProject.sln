@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33920.266
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiaisonGroupSkillTestProject", "LiaisonGroupSkillTestProject\LiaisonGroupSkillTestProject.csproj", "{A1EAA828-CF4D-406E-814E-5F5762E81C0A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiaisionGroupTestProject", "LiaisionGroupTestProject\LiaisionGroupTestProject.csproj", "{6E77640D-4DA7-494C-A780-7F3BF3637707}"
 EndProject
 Global
@@ -13,10 +11,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A1EAA828-CF4D-406E-814E-5F5762E81C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1EAA828-CF4D-406E-814E-5F5762E81C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1EAA828-CF4D-406E-814E-5F5762E81C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1EAA828-CF4D-406E-814E-5F5762E81C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6E77640D-4DA7-494C-A780-7F3BF3637707}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6E77640D-4DA7-494C-A780-7F3BF3637707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E77640D-4DA7-494C-A780-7F3BF3637707}.Release|Any CPU.ActiveCfg = Release|Any CPU
